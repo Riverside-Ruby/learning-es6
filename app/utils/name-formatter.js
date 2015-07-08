@@ -5,6 +5,6 @@ export default class NameFormatter {
   }
 
   fullName() {
-    return this.name.first + " " + this.name.last;
+    return `${this.name.first} ${this.name.last}`;
   }
 }
