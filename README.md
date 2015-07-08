@@ -15,3 +15,5 @@ Leanpub has two books that are free to read online.
 - [Exploring ES6](https://leanpub.com/exploring-es6/read), by [Axel Rauschmayer](http://rauschma.de/)
 
 ## Interesting Features
+### Modules
+Module `import` statements are similar to `require` in Ruby. They solve two problems: (1) dynamic loading of code and (2) not polluting the global namespace.
