@@ -1,6 +1,10 @@
-export default function NameFormatter(name) {
-  this.name = name;
-  this.fullName = function() {
+export default class NameFormatter {
+
+  constructor(name) {
+    this.name = name;
+  }
+
+  fullName() {
     return this.name.first + " " + this.name.last;
-  };
+  }
 }
